@@ -2,88 +2,88 @@
 export const chartData = {
     graphData: [
         {
-        name: '1', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '1', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '2', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '2', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '3', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '3', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '4', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '4', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '5', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '5', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '6', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '6', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '7', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '7', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '8', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '8', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '9', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '9', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '10', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '10', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '11', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '11', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '12', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '12', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '13', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '13', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '14', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '14', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '15', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '15', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '16', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '16', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '17', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '17', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '18', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '18', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '19', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '19', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '20', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '20', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '21', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '21', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '22', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '22', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '23', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '23', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '24', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '24', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '25', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '25', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '26', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '26', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '27', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '27', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         },
         {
-        name: '28', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
+        name: '28', visits: Math.floor(Math.random() * (5000 - 3500)) + 3500,
         }
     ],
     MVPage: [

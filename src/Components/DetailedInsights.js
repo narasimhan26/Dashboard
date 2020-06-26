@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function DetailedInsights(props) {
 
   return (
-    <div className="col-lg-3 col-sm-12 col-md-6">
-      <div className="card p-4 mx-3">
+    <div className="col-lg-3 col-sm-12 col-md-6 my-2">
+      <div className="card p-3">
         <div className="text-center">
           <p className="text-sm-center text-secondary font-weight-light">{props.about}</p>
           <h2>{props.value}</h2>
@@ -19,7 +19,7 @@ function DetailedInsights(props) {
           <AreaChart
             data={props.data} >
             <Tooltip />
-            <Area type="monotone" dataKey="visits" stroke={props.chartColour} fill={props.chartColour} />
+            <Area type="monotone" dataKey="visits" stroke={props.peakColour} fill={props.fillColour} />
           </AreaChart>
         </ResponsiveContainer>
       </div>

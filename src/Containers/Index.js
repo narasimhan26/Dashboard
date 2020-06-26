@@ -17,10 +17,11 @@ function Index() {
           </ul>
         </div>
         <div className="form-inline ml-0">
-          <ReactFlagsSelect
+          {/* <ReactFlagsSelect
             searchable={true}
             defaultCountry="IN"
-            searchPlaceholder="Country" />
+            searchPlaceholder="Country" /> */}
+          <select className="selectpicker countrypicker" data-flag="true" ></select>
         </div>
       </nav>
       <ChartsContainer /> 

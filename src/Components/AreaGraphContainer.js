@@ -11,7 +11,7 @@ function AreaGraphContainer() {
       <ResponsiveContainer width={120} height={50}>
         <AreaChart
           data={data.graphData} >
-          <Area type="monotone" dataKey="visits" stroke="#8884d8" fill="#8884d8" />
+          <Area type="monotone" dataKey="visits" stroke="#3b82df" fill="#e8f0fa" />
         </AreaChart>
       </ResponsiveContainer>
     </>
