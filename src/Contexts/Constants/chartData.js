@@ -2,88 +2,88 @@
 export const chartData = {
     graphData: [
         {
-        name: '1', visits: 4000,
+        name: '1', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '2', visits: 3000,
+        name: '2', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '3', visits: 2000,
+        name: '3', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '4', visits: 2780,
+        name: '4', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '5', visits: 1890,
+        name: '5', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '6', visits: 2390,
+        name: '6', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '7', visits: 3490,
+        name: '7', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '8', visits: 4000,
+        name: '8', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '9', visits: 3000,
+        name: '9', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '10', visits: 2000,
+        name: '10', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '11', visits: 2780,
+        name: '11', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '12', visits: 1890,
+        name: '12', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '13', visits: 2390,
+        name: '13', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '14', visits: 3490,
+        name: '14', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '15', visits: 4000,
+        name: '15', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '16', visits: 3000,
+        name: '16', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '17', visits: 2000,
+        name: '17', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '18', visits: 2780,
+        name: '18', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '19', visits: 1890,
+        name: '19', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '20', visits: 2390,
+        name: '20', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '21', visits: 3490,
+        name: '21', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '22', visits: 4000,
+        name: '22', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '23', visits: 3000,
+        name: '23', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '24', visits: 2000,
+        name: '24', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '25', visits: 2780,
+        name: '25', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '26', visits: 1890,
+        name: '26', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '27', visits: 2390,
+        name: '27', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         },
         {
-        name: '28', visits: 3490,
+        name: '28', visits: Math.floor(Math.random() * (5000 - 10)) + 10,
         }
     ],
     MVPage: [

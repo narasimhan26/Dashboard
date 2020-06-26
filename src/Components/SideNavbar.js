@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 //font awesome
 import { faHome, faCalendarDay, faInbox, faFileInvoice, faFlask, faChartLine, faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
+  const [showSubMenu, setShowSubMenu] = useState(true)
+
+  const togglesubmenu = () => setShowSubMenu(!showSubMenu)
+
   return (
     <div className="border-right" id="sidebar-wrapper">
       <div className="sidebar-heading text-center"><h3 className="text-secondary"><FontAwesomeIcon icon={faHome} /></h3></div>
@@ -14,12 +18,13 @@ function Navbar() {
       </div>
       <div className="list-group list-group-flush">
         <div className="list-group-item list-group-item-action p-4">
-          <span className="mr-2"><FontAwesomeIcon icon={faChartLine} /></span> Dashboard
-          <div className="ml-4 p-2">
+          <div onClick={togglesubmenu}><span className="mr-2"><FontAwesomeIcon className="active-state" icon={faChartLine} /></span> Dashboard</div>
+          {showSubMenu && <div className="ml-4 p-2">
             <a className="active-state dropdown-item p-2">Page visitor</a>
             <a className="dropdown-item p-2">Post Performance</a>
             <a className="dropdown-item p-2">Team Overall</a>
           </div>
+          }
         </div>
         <a className="list-group-item list-group-item-action p-4"><span className="mr-2"><FontAwesomeIcon icon={faCalendarDay} /></span> Calendar</a>
         <a className="list-group-item list-group-item-action p-4"><span className="mr-2"><FontAwesomeIcon icon={faInbox} /></span> Inbox</a>
