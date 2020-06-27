@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Dashboard/static/css/main.50ea4ee0.chunk.css",
-    "main.js": "/Dashboard/static/js/main.6347d166.chunk.js",
-    "main.js.map": "/Dashboard/static/js/main.6347d166.chunk.js.map",
+    "main.css": "/Dashboard/static/css/main.629f7b28.chunk.css",
+    "main.js": "/Dashboard/static/js/main.88aa4c04.chunk.js",
+    "main.js.map": "/Dashboard/static/js/main.88aa4c04.chunk.js.map",
     "runtime-main.js": "/Dashboard/static/js/runtime-main.fd897ea6.js",
     "runtime-main.js.map": "/Dashboard/static/js/runtime-main.fd897ea6.js.map",
     "static/css/2.cbf72db5.chunk.css": "/Dashboard/static/css/2.cbf72db5.chunk.css",
-    "static/js/2.44be36d5.chunk.js": "/Dashboard/static/js/2.44be36d5.chunk.js",
-    "static/js/2.44be36d5.chunk.js.map": "/Dashboard/static/js/2.44be36d5.chunk.js.map",
+    "static/js/2.add7e60e.chunk.js": "/Dashboard/static/js/2.add7e60e.chunk.js",
+    "static/js/2.add7e60e.chunk.js.map": "/Dashboard/static/js/2.add7e60e.chunk.js.map",
     "index.html": "/Dashboard/index.html",
-    "precache-manifest.94fa5c97f6f1d1b382e269e84e0d3afe.js": "/Dashboard/precache-manifest.94fa5c97f6f1d1b382e269e84e0d3afe.js",
+    "precache-manifest.2e4bd44df8d4d8c8456754adfdee2c6d.js": "/Dashboard/precache-manifest.2e4bd44df8d4d8c8456754adfdee2c6d.js",
     "service-worker.js": "/Dashboard/service-worker.js",
     "static/css/2.cbf72db5.chunk.css.map": "/Dashboard/static/css/2.cbf72db5.chunk.css.map",
-    "static/css/main.50ea4ee0.chunk.css.map": "/Dashboard/static/css/main.50ea4ee0.chunk.css.map",
-    "static/js/2.44be36d5.chunk.js.LICENSE.txt": "/Dashboard/static/js/2.44be36d5.chunk.js.LICENSE.txt",
+    "static/css/main.629f7b28.chunk.css.map": "/Dashboard/static/css/main.629f7b28.chunk.css.map",
+    "static/js/2.add7e60e.chunk.js.LICENSE.txt": "/Dashboard/static/js/2.add7e60e.chunk.js.LICENSE.txt",
     "static/media/ad.svg": "/Dashboard/static/media/ad.2f0263e0.svg",
     "static/media/ae.svg": "/Dashboard/static/media/ae.d038b7ed.svg",
     "static/media/af.svg": "/Dashboard/static/media/af.14c45ecc.svg",
@@ -240,8 +240,8 @@
   "entrypoints": [
     "static/js/runtime-main.fd897ea6.js",
     "static/css/2.cbf72db5.chunk.css",
-    "static/js/2.44be36d5.chunk.js",
-    "static/css/main.50ea4ee0.chunk.css",
-    "static/js/main.6347d166.chunk.js"
+    "static/js/2.add7e60e.chunk.js",
+    "static/css/main.629f7b28.chunk.css",
+    "static/js/main.88aa4c04.chunk.js"
   ]
 }
