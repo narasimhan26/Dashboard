@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { faHome, faCalendarDay, faInbox, faFileInvoice, faFlask, faChartLine, faLongArrowAltRight, faBars, faAngleUp, faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faCalendarDay, faInbox, faFileInvoice, faFlask, faChartLine, faLongArrowAltRight, faBars, faAngleUp, faAngleDown, faLongArrowAltLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ChartsContainer from './ChartsContainer'
 
@@ -10,8 +10,8 @@ import 'react-flags-select/css/react-flags-select.css';
 
 function Index() {
   const [showSubMenu, setShowSubMenu] = useState(true)
-  const [showHamburger, setShowHamburger] = useState(false)
-  const [showSideBar, setShowSideBar] = useState(window.innerWidth > 768 ? false : true)
+  const [showHamburger, setShowHamburger] = useState(window.innerWidth > 768 ? false : true)
+  const [showSideBar, setShowSideBar] = useState(false)
 
   const togglesubmenu = () => setShowSubMenu(!showSubMenu)
   const toggleSideBar = () => setShowSideBar(!showSideBar)
@@ -19,6 +19,7 @@ function Index() {
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth < 768) {
+        setShowHamburger(true)
         setShowHamburger(true)
       } 
       if (window.innerWidth >= 768) {
@@ -81,7 +82,7 @@ function Index() {
         <nav className="navbar navbar-light bg-white border-bottom m-2">
           <div className="navbar-nav mr-auto p-2">
             <div className="d-flex align-items-center"> 
-              {showHamburger && <FontAwesomeIcon size="1x" onClick={toggleSideBar} icon={faBars} />} 
+              {showHamburger && <FontAwesomeIcon size="1x" onClick={toggleSideBar} icon={showHamburger && !showSideBar ? faBars : faLongArrowAltLeft} />} 
               <span className="brand">Dashboard</span>
             </div>
           </div>
