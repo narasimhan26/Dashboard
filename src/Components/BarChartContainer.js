@@ -17,9 +17,9 @@ function BarChartContainer(props) {
             <BarChart
               data={props.data}
               barSize={16} >
-              <CartesianGrid strokeDasharray="3 3" />
+              <CartesianGrid strokeDasharray="0 0" vertical={false} />
               <XAxis dataKey="name" />
-              <YAxis />
+              <YAxis orientation="right" axisLine={false} interval="preserveStartEnd" />
               <Tooltip />
               <Bar dataKey="visits" fill="#0d65d9" />
             </BarChart>
