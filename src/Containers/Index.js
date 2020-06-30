@@ -15,6 +15,11 @@ function Index() {
 
   const togglesubmenu = () => setShowSubMenu(!showSubMenu)
   const toggleSideBar = () => setShowSideBar(!showSideBar)
+  const closeSideBar = () => {
+    if (showSideBar) {
+      setShowSideBar(!showSideBar)
+    }
+  }
 
   useEffect(() => {
     function handleResize() {
@@ -45,7 +50,9 @@ function Index() {
             <div onClick={togglesubmenu}>
               <span className="mr-2"><FontAwesomeIcon className="active-state" icon={faChartLine} /></span> 
               Dashboard
-              <FontAwesomeIcon className="alignRight" icon={showSubMenu ? faAngleUp : faAngleDown}/>
+              <span className="alignRight text-middle">
+                <FontAwesomeIcon icon={showSubMenu ? faAngleUp : faAngleDown}/>
+              </span>
             </div>
             {showSubMenu && <div className="ml-4 p-2">
               <a className="active-state dropdown-item p-2">Page visitor</a>
@@ -58,7 +65,9 @@ function Index() {
           <a className="list-group-item list-group-item-action p-4">
             <span className="mr-2"><FontAwesomeIcon icon={faInbox} /></span> 
             Inbox
-            <FontAwesomeIcon className="alignRight text-middle" icon={faAngleDown}/>
+            <span className="alignRight text-middle">
+              <FontAwesomeIcon icon={faAngleDown} />
+            </span>
           </a>
           <a className="list-group-item list-group-item-action p-4"><span className="mr-2"><FontAwesomeIcon icon={faFileInvoice} /></span> Invoicing</a>
           <a className="list-group-item list-group-item-action p-4"><span className="mr-2"><FontAwesomeIcon icon={faFlask} /></span> Lab/Experimenting</a>
@@ -72,13 +81,13 @@ function Index() {
           <div className="alignLeft"><a>Invoice #940</a></div>
           <div className="alignRight"><FontAwesomeIcon icon={faLongArrowAltRight} /></div>
         </div>
-        <div className="px-2 text-secondary">
+        <div className="px-2 pb-4 text-secondary">
           <div className="alignLeft"><a>Customer Minorva Viewer</a></div>
           <div className="alignRight"><FontAwesomeIcon icon={faLongArrowAltRight} /></div>
         </div>
       </div>
 
-      <div id="page-content-wrapper">
+      <div onClick={closeSideBar} id="page-content-wrapper">
         <nav className="navbar navbar-light bg-white border-bottom m-2">
           <div className="navbar-nav mr-auto p-2">
             <div className="d-flex align-items-center"> 
